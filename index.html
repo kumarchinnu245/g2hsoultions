@@ -3,299 +3,500 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G2H Solutions - Ground2High | Accelerate Your Business Growth</title>
-    <meta name="description" content="G2H Solutions - Expert B2B Lead Generation & Email Marketing Services. Transform prospects into profitable partnerships through precision targeting and strategic outreach.">
+    <title>G2H Solutions - Ground to High</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>G2H Solutions</h2>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <h2>G2H Solutions</h2>
+            <p>Loading your growth journey...</p>
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
             </div>
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link active">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#process" class="nav-link">Process</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <button class="btn btn-demo">Get Started</button>
-                </li>
-            </ul>
-            <div class="hamburger" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1 class="nav-logo">G2H Solutions</h1>
+                <span class="nav-tagline">Ground to High</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#about" class="nav-link" data-page="about">About Us</a>
+                <a href="#services" class="nav-link" data-page="services">Services</a>
+                <a href="#blog" class="nav-link" data-page="blog">Blog</a>
+                <a href="#contact" class="nav-link" data-page="contact">Contact Us</a>
+            </div>
+            <button class="nav-demo-btn">Book a Demo</button>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Transform Leads Into Revenue</h1>
-                <p class="hero-subtitle">Ground2High - Precision B2B Lead Generation</p>
-                <p class="hero-description">G2H Solutions specializes in connecting ambitious businesses with their ideal customers. 
-                    Through strategic email marketing and data-driven lead generation, we transform cold prospects into warm opportunities, delivering measurable growth for your business.</p>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary" id="book-consultation">Schedule Strategy Call</button>
-                    <button class="btn btn-secondary" id="learn-more">Discover Our Approach</button>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
 
-    <!-- Statistics Section -->
-    <section class="statistics" id="statistics">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number" data-target="250">0</div>
-                    <div class="stat-label">Active Clients</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="97">0</div>
-                    <div class="stat-label">Success Rate</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="7">0</div>
-                    <div class="stat-label">Years Delivering</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="750">0</div>
-                    <div class="stat-label">Campaigns Launched</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="99">0</div>
-                    <div class="stat-label">Data Precision</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="50">0</div>
-                    <div class="stat-label">Revenue Increase</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Strategic B2B Growth Solutions</h2>
-                <p class="section-description">Move beyond traditional marketing approaches. 
-                    G2H Solutions delivers sophisticated lead generation strategies that identify, engage, and convert your most valuable prospects. Our data-driven methodology ensures every outreach effort contributes to your bottom line.</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🚀</div>
-                    <h3 class="service-title">Strategic Outreach</h3>
-                    <p class="service-description">Multi-touch email sequences designed to nurture prospects through your sales funnel with compelling, value-driven messaging.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🔍</div>
-                    <h3 class="service-title">Prospect Research</h3>
-                    <p class="service-description">Advanced research techniques to identify high-potential leads that match your ideal customer profile perfectly.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📈</div>
-                    <h3 class="service-title">Performance Tracking</h3>
-                    <p class="service-description">Real-time analytics and detailed reporting to measure campaign effectiveness and optimize for maximum ROI.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">💼</div>
-                    <h3 class="service-title">Partnership Development</h3>
-                    <p class="service-description">Building sustainable business relationships that extend beyond initial contact to create long-term value.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="process" id="process">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Proven Methodology</h2>
-                <p class="section-description">A systematic 4-phase approach that consistently delivers qualified leads and measurable growth</p>
-            </div>
-            <div class="process-grid">
-                <div class="process-card">
-                    <div class="process-number">01</div>
-                    <h3 class="process-title">Discovery & Analysis</h3>
-                    <p class="process-description">Deep-dive into your business model, target market, and competitive landscape to create a custom strategy</p>
-                </div>
-                <div class="process-card">
-                    <div class="process-number">02</div>
-                    <h3 class="process-title">Strategy Development</h3>
-                    <p class="process-description">Crafting tailored messaging and identifying the most effective channels to reach your ideal prospects</p>
-                </div>
-                <div class="process-card">
-                    <div class="process-number">03</div>
-                    <h3 class="process-title">Campaign Execution</h3>
-                    <p class="process-description">Launching multi-channel campaigns with precision timing and personalized messaging for maximum impact</p>
-                </div>
-                <div class="process-card">
-                    <div class="process-number">04</div>
-                    <h3 class="process-title">Results & Optimization</h3>
-                    <p class="process-description">Continuous monitoring, analysis, and refinement to maximize conversion rates and campaign performance</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">Beyond Lead Generation - Building Connections</h2>
-                    <p class="section-description">G2H Solutions understands that successful B2B relationships start with genuine value creation. 
-                        Our approach combines cutting-edge technology with human insight, ensuring every interaction moves prospects closer to becoming loyal customers. We don't just generate leads - we build bridges to lasting business partnerships.</p>
-                </div>
-                <div class="about-stat">
-                    <div class="big-stat-number">15 Million+</div>
-                    <div class="big-stat-label">Strategic Connections Made</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quality Section -->
-    <section class="quality">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">The G2H Advantage</h2>
-            </div>
-            <div class="quality-grid">
-                <div class="quality-card">
-                    <div class="quality-number">01</div>
-                    <h3 class="quality-title">Industry Expertise</h3>
-                    <p class="quality-description">Seven years of specialized experience in B2B lead generation across diverse industries and markets</p>
-                </div>
-                <div class="quality-card">
-                    <div class="quality-number">02</div>
-                    <h3 class="quality-title">Custom Strategies</h3>
-                    <p class="quality-description">Every campaign is built from the ground up to match your specific business objectives and market dynamics</p>
-                </div>
-                <div class="quality-card">
-                    <div class="quality-number">03</div>
-                    <h3 class="quality-title">Measurable Impact</h3>
-                    <p class="quality-description">Transparent reporting and clear ROI metrics that demonstrate the tangible value of our partnership</p>
-                </div>
-                <div class="quality-card">
-                    <div class="quality-number">04</div>
-                    <h3 class="quality-title">International Reach</h3>
-                    <p class="quality-description">Cross-border expertise connecting businesses with opportunities in global markets</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Client Success Stories</h2>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"G2H Solutions revolutionized our approach to lead generation. Within six months, we saw a 300% increase in qualified opportunities and closed our biggest deals ever."</p>
-                    <div class="testimonial-author">Sarah Chen, VP of Sales</div>
-                </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"The strategic insight and execution quality from G2H Solutions is unmatched. They understand B2B dynamics and deliver results that directly impact our growth trajectory."</p>
-                    <div class="testimonial-author">Michael Rodriguez, Growth Director</div>
-                </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"Working with G2H Solutions has been transformational. Their systematic approach to lead nurturing helped us build relationships with enterprise clients we never thought possible."</p>
-                    <div class="testimonial-author">Jennifer Park, Founder & CEO</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2 class="section-title">Ready to Accelerate Growth?</h2>
-                    <p class="section-description">Let's discuss how G2H Solutions can help transform your business development efforts into a predictable revenue engine.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <h4>India Operations</h4>
-                            <p>+91 9876543210</p>
+    <!-- Main Content Container -->
+    <main class="main-content">
+        
+        <!-- HOME PAGE -->
+        <section class="page active" id="home">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Elevating Businesses Through Strategic Lead Generation</h1>
+                        <p class="hero-subtitle">Transform your business growth with our data-driven lead generation solutions. We help companies scale from ground to high levels of success.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary">Get Started</button>
+                            <button class="btn btn-secondary">Learn More</button>
                         </div>
-                        <div class="contact-item">
-                            <h4>US Operations</h4>
-                            <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="50">0</div>
+                            <div class="stat-label">Happy Clients</div>
                         </div>
-                        <div class="form-note">
-                            <p><strong>Form Submission:</strong> Your information will be securely processed through Formspree and sent directly to our team. 
-                                We respond to all inquiries within 2 business hours.</p>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="92">0</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="75">0</div>
+                            <div class="stat-label">Campaigns Delivered</div>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contact-form" action="https://formspree.io/f/xpzgkqko" method="POST">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+            </section>
+
+            <!-- Services Overview -->
+            <section class="services-overview">
+                <div class="container">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Comprehensive solutions to accelerate your business growth</p>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">📋</div>
+                            <h3 class="service-title">Strategy Development</h3>
+                            <p class="service-desc">Building comprehensive lead generation strategies tailored to your business goals</p>
+                            <button class="service-btn">Learn More</button>
                         </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+                        <div class="service-card">
+                            <div class="service-icon">🔍</div>
+                            <h3 class="service-title">Market Research</h3>
+                            <p class="service-desc">In-depth analysis and identification of your ideal customer profiles</p>
+                            <button class="service-btn">Learn More</button>
                         </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="Your Phone Number" required>
+                        <div class="service-card">
+                            <div class="service-icon">🚀</div>
+                            <h3 class="service-title">Campaign Execution</h3>
+                            <p class="service-desc">Multi-channel outreach campaigns designed to maximize engagement</p>
+                            <button class="service-btn">Learn More</button>
                         </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" class="form-input" rows="5" placeholder="Tell us about your business goals and challenges" required></textarea>
+                        <div class="service-card">
+                            <div class="service-icon">✅</div>
+                            <h3 class="service-title">Lead Qualification</h3>
+                            <p class="service-desc">Connecting you with pre-qualified prospects ready for meaningful conversations</p>
+                            <button class="service-btn">Learn More</button>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-                        <p class="privacy-note">We respect your privacy. Your information is securely transmitted and never shared with third parties.</p>
-                    </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics Section -->
+            <section class="statistics">
+                <div class="container">
+                    <h2 class="section-title">Our Track Record</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="96">0</div>
+                            <div class="stat-label">Data Accuracy</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="78">0</div>
+                            <div class="stat-label">Lead Conversion</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="1">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="92">0</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about-preview">
+                <div class="container">
+                    <div class="about-content">
+                        <h2 class="section-title">About G2H Solutions</h2>
+                        <p class="about-text">Founded with a vision to bridge the gap between businesses and their growth potential, G2H Solutions specializes in strategic lead generation that delivers results. In just one year, we've helped over 50 businesses transform their sales pipeline and achieve remarkable growth.</p>
+                        <p class="about-text">Our data-driven approach combines cutting-edge technology with human expertise to deliver highly qualified leads that convert into loyal customers.</p>
+                        <button class="btn btn-primary">Learn Our Story</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <div class="container">
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"G2H Solutions transformed our lead generation process. Within 3 months, our conversion rates improved by 65%."</p>
+                            <div class="testimonial-author">
+                                <strong>Sarah Johnson</strong>
+                                <span>CEO, TechStart Inc</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Their strategic approach and attention to detail is unmatched. Highly recommend for any business looking to scale."</p>
+                            <div class="testimonial-author">
+                                <strong>Michael Chen</strong>
+                                <span>Marketing Director, GrowthCorp</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Professional, reliable, and results-driven. G2H Solutions exceeded our expectations in every way."</p>
+                            <div class="testimonial-author">
+                                <strong>Emily Rodriguez</strong>
+                                <span>Founder, InnovateHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ABOUT US PAGE -->
+        <section class="page" id="about">
+            <div class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">About G2H Solutions</h1>
+                    <p class="page-subtitle">Your trusted partner in strategic lead generation and business growth</p>
                 </div>
             </div>
-        </div>
-    </section>
+            
+            <div class="container">
+                <section class="about-story">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Founded in 2024, G2H Solutions emerged from a simple yet powerful vision: to help businesses bridge the gap between their current position and their growth aspirations. Our name reflects our core mission - taking businesses from Ground to High levels of success through strategic lead generation.</p>
+                    
+                    <h3>Our Values</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <h4>Data-Driven Excellence</h4>
+                            <p>Every strategy is backed by comprehensive market research and analytics</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Client-Centric Approach</h4>
+                            <p>Your success is our success. We customize solutions for each client's unique needs</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Transparent Communication</h4>
+                            <p>Clear reporting and open communication throughout every campaign</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Continuous Innovation</h4>
+                            <p>Staying ahead of industry trends to deliver cutting-edge solutions</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- SERVICES PAGE -->
+        <section class="page" id="services">
+            <div class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">Our Services</h1>
+                    <p class="page-subtitle">Comprehensive lead generation solutions designed for growth</p>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="services-detailed">
+                    <div class="service-detailed">
+                        <h3>Strategy Development</h3>
+                        <p>We begin every partnership with a comprehensive strategy development process. Our team analyzes your business goals, target market, and competitive landscape to create a customized lead generation blueprint that aligns with your objectives.</p>
+                        <ul>
+                            <li>Market analysis and competitor research</li>
+                            <li>Target audience identification</li>
+                            <li>Channel selection and optimization</li>
+                            <li>KPI establishment and tracking setup</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-detailed">
+                        <h3>Market Research</h3>
+                        <p>Our market research services provide deep insights into your ideal customer profiles, market trends, and growth opportunities. We use advanced analytics to identify high-value prospects and understand their buying behavior.</p>
+                        <ul>
+                            <li>Ideal customer profile development</li>
+                            <li>Market segmentation and analysis</li>
+                            <li>Buyer journey mapping</li>
+                            <li>Competitive intelligence gathering</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-detailed">
+                        <h3>Campaign Execution</h3>
+                        <p>Our multi-channel campaign execution ensures maximum reach and engagement with your target audience. We leverage email marketing, social selling, content marketing, and other proven channels to generate qualified leads.</p>
+                        <ul>
+                            <li>Multi-channel outreach campaigns</li>
+                            <li>Content creation and optimization</li>
+                            <li>Email marketing automation</li>
+                            <li>Social media lead generation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-detailed">
+                        <h3>Lead Qualification</h3>
+                        <p>Not all leads are created equal. Our lead qualification process ensures you connect with prospects who are genuinely interested and have the budget and authority to make purchasing decisions.</p>
+                        <ul>
+                            <li>Lead scoring and prioritization</li>
+                            <li>Qualification questionnaires</li>
+                            <li>Appointment setting</li>
+                            <li>CRM integration and management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOG PAGE -->
+        <section class="page" id="blog">
+            <div class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">Insights & Resources</h1>
+                    <p class="page-subtitle">Stay updated with the latest trends in lead generation and business growth</p>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <h3 class="blog-title">5 Lead Generation Strategies That Actually Work in 2025</h3>
+                        <p class="blog-excerpt">Discover the most effective lead generation strategies that are driving results for businesses across industries...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">March 15, 2025</span>
+                            <span class="blog-category">Strategy</span>
+                        </div>
+                        <button class="blog-read-more">Read More</button>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <h3 class="blog-title">The Complete Guide to B2B Lead Qualification</h3>
+                        <p class="blog-excerpt">Learn how to effectively qualify leads and improve your conversion rates with proven frameworks...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">March 10, 2025</span>
+                            <span class="blog-category">Best Practices</span>
+                        </div>
+                        <button class="blog-read-more">Read More</button>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <h3 class="blog-title">How Data Analytics Transforms Lead Generation</h3>
+                        <p class="blog-excerpt">Explore how leveraging data analytics can significantly improve your lead generation outcomes...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">March 5, 2025</span>
+                            <span class="blog-category">Technology</span>
+                        </div>
+                        <button class="blog-read-more">Read More</button>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <h3 class="blog-title">Building a Sustainable Sales Pipeline</h3>
+                        <p class="blog-excerpt">Create a consistent flow of qualified leads with these pipeline building strategies...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">February 28, 2025</span>
+                            <span class="blog-category">Sales</span>
+                        </div>
+                        <button class="blog-read-more">Read More</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section class="page" id="contact">
+            <div class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">Contact Us</h1>
+                    <p class="page-subtitle">Ready to transform your business growth? Let's start the conversation</p>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-form-section">
+                        <h2>Get In Touch</h2>
+                        <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                            <!-- Web3Forms Configuration -->
+                            <input type="hidden" name="access_key" value="your-access-key-here">
+                            <input type="hidden" name="subject" value="New Lead from G2H Solutions Website">
+                            <input type="hidden" name="from_name" value="G2H Solutions Contact Form">
+                            <input type="hidden" name="redirect" value="">
+                            
+                            <!-- Honeypot Spam Protection -->
+                            <input type="checkbox" name="botcheck" id="" style="display: none;">
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label">First Name *</label>
+                                    <input type="text" name="first_name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Last Name *</label>
+                                    <input type="text" name="last_name" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Email *</label>
+                                <input type="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Company</label>
+                                <input type="text" name="company" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Service Interest</label>
+                                <select name="service_interest" class="form-control">
+                                    <option value="">Select a service</option>
+                                    <option value="strategy">Strategy Development</option>
+                                    <option value="research">Market Research</option>
+                                    <option value="campaign">Campaign Execution</option>
+                                    <option value="qualification">Lead Qualification</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Message *</label>
+                                <textarea name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full-width" id="submit-btn">Send Message</button>
+                        </form>
+                        
+                        <!-- Success/Error Messages -->
+                        <div class="form-message" id="form-message" style="display: none;"></div>
+                    </div>
+                    
+                    <div class="contact-info-section">
+                        <h2>Contact Information</h2>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <strong>Phone:</strong>
+                                <span>+91 98765 43210</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Email:</strong>
+                                <span>info@g2hsolutions.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Business Hours:</strong>
+                                <span>Monday - Friday: 9:00 AM - 6:00 PM IST</span>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h3>Follow Us</h3>
+                            <div class="social-buttons">
+                                <a href="https://linkedin.com/company/g2hsolutions" class="social-btn" target="_blank" aria-label="Follow G2H Solutions on LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://facebook.com/g2hsolutions" class="social-btn" target="_blank" aria-label="Follow G2H Solutions on Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/g2hsolutions" class="social-btn" target="_blank" aria-label="Follow G2H Solutions on Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://instagram.com/g2hsolutions" class="social-btn" target="_blank" aria-label="Follow G2H Solutions on Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="mailto:info@g2hsolutions.com" class="social-btn" aria-label="Send email to G2H Solutions">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-info">
+                <div class="footer-section">
                     <h3>G2H Solutions</h3>
-                    <p>Ground2High - Strategic B2B Growth Partners</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link" target="_blank">LinkedIn</a>
-                        <a href="#" class="social-link" target="_blank">Facebook</a>
-                        <a href="#" class="social-link" target="_blank">Twitter</a>
-                        <a href="#" class="social-link" target="_blank">Instagram</a>
+                    <p>Elevating Businesses Through Strategic Lead Generation</p>
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/company/g2hsolutions" target="_blank" aria-label="Follow G2H Solutions on LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://facebook.com/g2hsolutions" target="_blank" aria-label="Follow G2H Solutions on Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/g2hsolutions" target="_blank" aria-label="Follow G2H Solutions on Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/g2hsolutions" target="_blank" aria-label="Follow G2H Solutions on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:info@g2hsolutions.com" aria-label="Send email to G2H Solutions">
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="footer-contact">
-                    <h4>Connect With Us</h4>
-                    <p>India: +91 9876543210</p>
-                    <p>US: +1 (555) 123-4567</p>
-                    <p>contact@g2hsolutions.com</p>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Strategy Development</a></li>
+                        <li><a href="#services">Market Research</a></li>
+                        <li><a href="#services">Campaign Execution</a></li>
+                        <li><a href="#services">Lead Qualification</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Phone: +91 98765 43210</p>
+                    <p>Email: info@g2hsolutions.com</p>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2025 G2H Solutions. All rights reserved. | Privacy Policy | Terms of Service</p>
+                <p>&copy; 2025 G2H Solutions. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
     <script src="app.js"></script>
 </body>
 </html>
